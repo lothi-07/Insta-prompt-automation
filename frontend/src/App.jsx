@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 
 // ─── API CONFIG ───────────────────────────────────────────────────────────────
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://insta-prompt-backend.onrender.com";
 
 const api = {
   get: (path) => fetch(`${API_BASE}${path}`).then((r) => r.json()),
