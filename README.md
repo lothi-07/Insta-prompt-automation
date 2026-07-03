@@ -41,6 +41,5 @@ A Full Stack Web Application that automates sending AI prompts via Instagram DM 
 - 📝 Assign AI Prompts to Reels
 - 💬 Auto DM when user comments "PROMPT"
 - 📋 Activity Logs
-- 📱 Mobile Responsive
 
 ---
