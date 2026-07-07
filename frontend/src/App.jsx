@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 
 // ─── API CONFIG ───────────────────────────────────────────────────────────────
-const API_BASE = "https://insta-prompt-backend.onrender.com";
+const API_BASE = (import.meta.env.VITE_API_BASE || "https://insta-prompt-backend.onrender.com").replace(/\/$/, "");
 
 const api = {
   get: (path) => fetch(`${API_BASE}${path}`).then((r) => r.json()),
